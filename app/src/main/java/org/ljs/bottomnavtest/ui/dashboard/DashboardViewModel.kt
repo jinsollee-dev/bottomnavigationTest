@@ -1,0 +1,9 @@
+package org.ljs.bottomnavtest.ui.dashboard
+
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+
+class DashboardViewModel : ViewModel() {
+
+}
