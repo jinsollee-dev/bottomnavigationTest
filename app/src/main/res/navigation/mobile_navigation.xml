@@ -15,7 +15,19 @@
         android:id="@+id/navigation_dashboard"
         android:name="org.ljs.bottomnavtest.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_Fragment_to_inputFragment"
+            app:destination="@id/inputFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/inputFragment"
+        android:name="org.ljs.bottomnavtest.ui.InputFragment"
+        android:label="fragment_input"
+        tools:layout="@layout/fragment_input" >
+
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_notifications"
